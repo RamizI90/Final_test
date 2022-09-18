@@ -16,4 +16,17 @@ void NewArray(string[] arrayA, string[] arrayB )
    
    
 }
+void PrintArray(string[]array)  
+{
+    for( var i = 0; i < array.Length; i++)
+    {
+        Console.Write($" '{array[i]}' ");
+    }
+}
 
+NewArray(arrayA, arrayB);
+PrintArray(arrayA);
+
+Console.WriteLine();
+
+PrintArray(arrayB);
