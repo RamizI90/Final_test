@@ -7,5 +7,13 @@ void NewArray(string[] arrayA, string[] arrayB )
 
    for(int i = 0; i < arrayA.Length; i++)
    {
-        if(arrayA[i].Length <= 3);
-        
+        if(arrayA[i].Length <= 3)
+        {
+            arrayB[count] = arrayA[i];
+            count++;
+        }
+   }
+   
+   
+}
+
